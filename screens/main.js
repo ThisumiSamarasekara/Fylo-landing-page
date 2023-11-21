@@ -19,7 +19,7 @@ document.getElementById("emailInput").addEventListener("input", function () {
   document.getElementById("errorMessage").textContent = "";
 });
 
-//Validating the email
+// Validating the email
 function validateEmail(email) {
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
