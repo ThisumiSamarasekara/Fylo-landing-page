@@ -1,27 +1,26 @@
-document.getElementById("getStartedBtn").addEventListener("click", function () {
-  var email = document.getElementById("emailInput").value;
-  var errorMessage = document.getElementById("error-message");
+document
+  .getElementById("getStartedButton")
+  .addEventListener("click", function () {
+    var email = document.getElementById("emailInput").value;
+    var errorMessage = document.getElementById("errorMessage");
 
-  if (validateEmail(email)) {
-    // Clear previous error messages
-    errorMessage.textContent = "";
-    document.getElementById("emailInput").style.border = "2px solid #ccc";
+    if (validateEmail(email)) {
+      // No error message is shown
+      errorMessage.textContent = "";
+      alert("Email is valid !");
+    } else {
+      // An error message is shown
+      errorMessage.textContent = "Please enter a valid email address";
+    }
+  });
 
-    alert("Email is valid !");
-  } else {
-    // Display error message and change border color
-    errorMessage.textContent = "Please enter a valid email address";
-  }
-});
-
-// Add event listener for the "input" event on the email input field
+// Error message is cleared when user types the email
 document.getElementById("emailInput").addEventListener("input", function () {
-  // Clear the error message when the user types in the email field
-  document.getElementById("error-message").textContent = "";
+  document.getElementById("errorMessage").textContent = "";
 });
 
+//Validating the email
 function validateEmail(email) {
-  // Email validation
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }

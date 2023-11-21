@@ -14,7 +14,6 @@ header {
   right: 0;
   height: 150px;
   padding-top: 80px;
-  /* background-color: hsl(217, 28%, 15%); */
 }
 
 nav {
@@ -47,10 +46,6 @@ header img {
 }
 
 /* Introduction */
-.intro {
-  /* background-color: hsl(217, 28%, 15%); */
-}
-
 .intro img {
   margin: 0px 400px;
 }
@@ -361,7 +356,7 @@ button:hover {
   font-family: "Open Sans", sans-serif;
 }
 
-#error-message {
+#errorMessage {
   color: red;
   margin-top: 7px;
   align-items: center;
@@ -713,7 +708,7 @@ button:hover {
     font-size: 11px;
   }
 
-  #error-message {
+  #errorMessage {
     color: red;
     width: 300px;
     margin-top: -80px;
