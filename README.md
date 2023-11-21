@@ -19,13 +19,10 @@ In this page there are 7 sections,
 5) Testimonial section
    ![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/0f484e1f-b608-4eb7-815d-0db769ae9b2e)
 
-6) Sign-up form section
-   ![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/69cc45a2-1dd5-480a-ac4c-42448fb952b9)
+6) Sign-up form section and Footer section
+   ![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/dd48eb64-c5d4-4c69-8c89-c901fb5215e5)
 
-7) Footer section
-   ![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/3e462e63-08cf-4a88-a046-ad78c75e7957)
    
-
 Mobile view of the UI is given below :-
 
 ![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/adc35709-8817-4b7d-bac7-766ace4fd80f)
