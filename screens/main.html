@@ -9,7 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./main.css" rel="stylesheet" />
     <link
       rel="icon"
       type="image/png"
@@ -24,80 +31,81 @@
       <!-- Navigation -->
       <header>
         <nav>
-          <img
-            src="./../images/logo.svg"
-            id="logo"
-            height="60px"
-            width="200px"
-          />
-          <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Sign In</a></li>
-          </ul>
+          <div class="navLogo">
+            <img
+              src="./../images/logo.svg"
+              id="logo"
+              height="60px"
+              width="200px"
+            />
+          </div>
+          <div class="buttons">
+            <div class="nav_icons">
+              <p>Features</p>
+              <p>Team</p>
+              <p>Sign In</p>
+            </div>
+          </div>
         </nav>
       </header>
+
       <!-- Introduction -->
-      <div class="intro">
+      <section class="intro">
         <img src="./../images/illustration-intro.png" />
-        <h2>
-          All your files in one secure location,<br />
-          accessible anywhere.
-        </h2>
+        <h2>All your files in one secure location, accessible anywhere.</h2>
         <p>
-          Fylo stores all your most important files in one secure location.<br />
+          Fylo stores all your most important files in one secure location.
           Access them wherever you need, share and collaborate with
           <br />friends family, and co-workers.
         </p>
         <button type="submit">Get Started</button>
+      </section>
 
-        <!-- Flexbox -->
-        <div class="resources">
-          <div class="flexbox1">
-            <div class="access">
-              <img src="./../images/icon-access-anywhere.svg" />
-              <div class="access-heading">Access your files, anywhere</div>
-              <div class="access-prg">
-                The ability to use a smartphone, tablet, or computer to access
-                your account means your files follow you everywhere.
-              </div>
-            </div>
-            <div class="trust">
-              <img src="./../images/icon-security.svg" />
-              <div class="trust-heading">Security you can trust</div>
-              <div class="trust-prg">
-                2-factor authentication and user-controlled encryption are just
-                a couple of the security features we allow to help secure your
-                files.
-              </div>
+      <!-- Resources -->
+      <section class="resources">
+        <div class="flexbox1">
+          <div class="access">
+            <img src="./../images/icon-access-anywhere.svg" />
+            <div class="access-heading">Access your files, anywhere</div>
+            <div class="access-prg">
+              The ability to use a smartphone, tablet, or computer to access
+              your account means your files follow you everywhere.
             </div>
           </div>
-          <div class="flexbox2">
-            <div class="collaboration">
-              <img src="./../images/icon-collaboration.svg" />
-              <div class="collaboration-heading">Real-time collaboration</div>
-              <div class="collaboration-prg">
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments
-                required.
-              </div>
-            </div>
-            <div class="anyfile">
-              <img src="./../images/icon-any-file.svg" />
-              <div class="anyfile-heading">Store any type of file</div>
-              <div class="anyfile-prg">
-                Whether you're sharing holidays photos or work documents, Fylo
-                has you covered allowing for all file types to be securely
-                stored and shared.
-              </div>
+          <div class="trust">
+            <img src="./../images/icon-security.svg" />
+            <div class="trust-heading">Security you can trust</div>
+            <div class="trust-prg">
+              2-factor authentication and user-controlled encryption are just a
+              couple of the security features we allow to help secure your
+              files.
             </div>
           </div>
         </div>
-      </div>
+        <div class="flexbox2">
+          <div class="collaboration">
+            <img src="./../images/icon-collaboration.svg" />
+            <div class="collaboration-heading">Real-time collaboration</div>
+            <div class="collaboration-prg">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </div>
+          </div>
+          <div class="anyfile">
+            <img src="./../images/icon-any-file.svg" />
+            <div class="anyfile-heading">Store any type of file</div>
+            <div class="anyfile-prg">
+              Whether you're sharing holidays photos or work documents, Fylo has
+              you covered allowing for all file types to be securely stored and
+              shared.
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Productive -->
-      <section class="productive" id="productive">
-        <div class="productive_container container grid">
+      <section class="productive">
+        <div class="productive_container">
           <div class="productive_image">
             <img
               src="./../images/illustration-stay-productive.png"
@@ -108,8 +116,7 @@
 
           <div class="productive_content">
             <h2 class="section_title productive_title">
-              Stay productive,<br />
-              wherever you are
+              Stay productive, wherever you are
             </h2>
 
             <p class="productive_description">
@@ -129,6 +136,168 @@
           </div>
         </div>
       </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials">
+        <img src="./../images/bg-quotes.png" id="quotes" />
+        <div class="testimonials__container">
+          <!-- Item1 -->
+          <div class="testimonials__item">
+            <p class="testimonials__comment">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonials__author">
+              <div class="author_image">
+                <img src="./../images/profile-1.jpg" />
+              </div>
+              <div class="author_info">
+                <div class="name">Satish Patel</div>
+                <div class="position">Founder & CEO, Huddle</div>
+              </div>
+            </div>
+          </div>
+          <!-- Item2 -->
+          <div class="testimonials__item">
+            <p class="testimonials__comment">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonials__author">
+              <div class="author_image">
+                <img src="./../images/profile-2.jpg" />
+              </div>
+              <div class="author_info">
+                <div class="name">Bruce McKenzie</div>
+                <div class="position">Founder & CEO, Huddle</div>
+              </div>
+            </div>
+          </div>
+          <!-- Item3 -->
+          <div class="testimonials__item">
+            <p class="testimonials__comment">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonials__author">
+              <div class="author_image">
+                <img src="./../images/profile-3.jpg" />
+              </div>
+              <div class="author_info">
+                <div class="name">Iva Boyd</div>
+                <div class="position">Founder & CEO, Huddle</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Signup form -->
+      <div class="signUp_footer">
+        <section class="signUp">
+          <div class="signUp_container">
+            <div class="signUp_heading">Get early access today</div>
+            <div class="signUp_description">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </div>
+            <div class="signUp_form">
+              <div class="textbox">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="email@example.com"
+                  id="emailInput"
+                />
+              </div>
+              <div class="signUp_button">
+                <input
+                  type="submit"
+                  value="Get Started For Free"
+                  id="getStartedBtn"
+                />
+              </div>
+            </div>
+            <div id="error-message"></div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer_container">
+            <div class="footer_img">
+              <img src="./../images/logo.svg" />
+            </div>
+            <div class="footer_content">
+              <div class="footer_item">
+                <div class="div1">
+                  <i
+                    class="fa-solid fa-location-dot"
+                    style="color: #ffffff"
+                  ></i>
+                  <div class="div1_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua
+                  </div>
+                </div>
+              </div>
+              <div class="footer_item">
+                <div class="div2">
+                  <div class="div2_item">
+                    <img src="./../images/icon-phone.svg" />
+                    <div class="div2_description">+1-543-123-4567</div>
+                  </div>
+                  <div class="div2_item">
+                    <img src="./../images/icon-email.svg" />
+                    <div class="div2_description">example@fylo.com</div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer_item">
+                <div class="div3">
+                  <p>About Us</p>
+                  <p>Jobs</p>
+                  <p>Press</p>
+                  <p>Blog</p>
+                </div>
+              </div>
+              <div class="footer_item">
+                <div class="div4">
+                  <p>Contact Us</p>
+                  <p>Terms</p>
+                  <p>Privacy</p>
+                </div>
+              </div>
+              <div class="footer_item">
+                <div class="div5">
+                  <div class="icons">
+                    <i
+                      class="fa-brands fa-facebook-f"
+                      style="color: #ffffff"
+                      id="facebook"
+                    ></i>
+                  </div>
+                  <div class="icons">
+                    <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+                  </div>
+                  <div class="icons">
+                    <i
+                      class="fa-brands fa-instagram"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
