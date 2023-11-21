@@ -28,23 +28,8 @@ In this page there are 7 sections,
 
 Mobile view of the UI is given below :-
 
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/473bf542-ffae-44f9-8d71-e7ec351261a2)
+![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/adc35709-8817-4b7d-bac7-766ace4fd80f)
 
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/82ef5de1-57ca-4842-96af-4b9a413e3abb)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/1e9216ac-bf8d-4352-89b4-4a92a3ab0d04)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/b573ed1f-fbdb-4275-a574-f3fa92c6d014)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/b0145cc6-e423-4372-8576-b6179f93f8a7)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/c2e8c5c8-5de0-44f2-896a-e06925053799)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/b7795ab3-9028-47e7-9ebc-da6e5165bb5a)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/9c2e24b2-e331-439e-a65b-6ecec329b4ab)
-
-![image](https://github.com/ThisumiSamarasekara/Fylo-landing-page/assets/77894368/27fb512d-4368-4a29-9431-9c289d549d76)
 
 
 
