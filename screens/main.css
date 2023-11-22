@@ -357,7 +357,7 @@ button:hover {
 }
 
 #errorMessage {
-  color: red;
+  color: hsl(0, 100%, 63%);
   margin-top: 7px;
   align-items: center;
   margin-right: 450px;
